@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(100, 89, 89);
+    color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: right;
+    text-align: right;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+
+}
+
+header{
+    text-align: center;
+    font-size: 120%;
+}
+
+.movies {
+    border-radius: 20px;
+    background-color: rgb(14, 20, 20);
+    border-width: 100%;
+    height: max-content;
+    margin: 15px;
+    padding: 15px;
+}
+
+.images{
+    border-radius: 20px;
+    width: 30%;
+    height:min-content;
+    padding: 10px;
+    margin: 10px;
+}
