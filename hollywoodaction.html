@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Downloads</title>
+    <link rel="stylesheet" href="moviesstyles.css">
+</head>
+<body>
+    <header>
+        <a class="return" href="explore.html"><img src="return.png" width="40px" height="40px"></a>
+        <h1>Hollywood</h1>
+        <div class="top">
+            <p>Copy links and paste in your web broswer to download.</p>
+            <h3 class="sub">Hollywood Action Movies<h3>
+        </div>
+    </header> 
+
+    <header1>
+        <nav>
+            <ul>
+                <li><a href="hollywoodaction.html">Action</a></li>
+                <li><a href="hollywoodanimation.html">Animation</a></li>
+                <li><a href="hollywoodromance.html">Romance</a></li>
+                <li><a href="hollywoodmystical.html">Mystical</a></li>
+            </ul>
+        </nav>
+    </header1>
+    
+    <section class="movie">
+        <input class="search" type="search" id="search-input" placeholder="  ...movie name...">
+        <div id="item-list">
+            <header2>
+                <h4>My Spy: The Eternal City 2024 (335MB)</h4>
+                <img src="myspy2.jpeg" width="256px" height="146px">
+                <p>JJ, a veteran CIA agent, reunites with his protégé Sophie, in order to prevent a catastrophic nuclear scheme aimed at the Vatican, which disrupts a high school choir trip to Italy.</p>
+                <div class="link-container">
+                    <input type="text" value="https://www.mediafire.com/file/pk0wmrgrqj1ccge/My+Spy+The+Eternal+City+(2024)+(Netnaija.ng).mkv/file?dkey=1v5rxcqp2hb&r=1426" id="my_spy_the_eternal_city_2024" readonly>
+                    <button onclick="copyLink('my_spy_the_eternal_city_2024')">Copy</button>
+                </div>
+            </header2>
+
+            <header2>
+                <h4>Furiosa: A Mad Max Saga 760000264526834508 MB)</h4>
+                <img src="furiosa_a_mad_max_saga.jpeg" width="256px" height="146px">
+                <p>Snatched from the Green Place of Many Mothers, young Furiosa falls into the hands of a great biker horde led by the warlord Dementus. Sweeping through the Wasteland, they come across the Citadel, presided over by the Immortan Joe. As the two tyrants fight for dominance, Furiosa soon finds herself in a nonstop battle to make her way home.</p>
+                <div class="link-container">
+                    <input type="text" value="https://jjje.com/link2" id="furiosa_a_mad_max_saga" readonly>
+                    <button onclick="copyLink('furiosa_a_mad_max_saga')">Copy</button>
+                </div>
+            </header2>
+
+            <header2>
+                <h4>Atlas</h4>
+                <img src="myspy2.jpeg" width="320px" height="183px">
+                <p>JJ, a veteran CIA agent, reunites with his protégé Sophie, in order to prevent a catastrophic nuclear scheme aimed at the Vatican, which disrupts a high school choir trip to Italy.</p>
+                <div class="link-container">
+                    <input type="text" value="https://www.mediafire.com/file/pk0wmrgrqj1ccge/My+Spy+The+Eternal+City+(2024)+(Netnaija.ng).mkv/file?dkey=1v5rxcqp2hb&r=1426" id="atlas" readonly>
+                    <button onclick="copyLink('atlas')">Copy</button>
+                </div>
+            </header2>
+
+            <header2>
+                <h4>Hit Man (1.2MB)</h4>
+                <img src="furiosa_a_mad_max_saga.jpeg" width="320px" height="183px">
+                <p>Snatched from the Green Place of Many Mothers, young Furiosa falls into the hands of a great biker horde led by the warlord Dementus. Sweeping through the Wasteland, they come across the Citadel, presided over by the Immortan Joe. As the two tyrants fight for dominance, Furiosa soon finds herself in a nonstop battle to make her way home.</p>
+                <div class="link-container">
+                    <input type="text" value="https://jjje.com/link2" id="link2" readonly>
+                    <button onclick="copyLink('link2')">Copy</button>
+                </div>
+            </header2>
+        </div>
+
+<script>
+    function copyLink(linkId) {
+        var copyText = document.getElementById(linkId);
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");
+        alert("Copied: ");
+    }
+
+    const searchInput = document.getElementById('search-input');
+    const itemList = document.getElementById('item-list');
+    const items = itemList.getElementsByTagName('header2');
+
+    searchInput.addEventListener('input', function() {
+    const searchTerm = searchInput.value.toLowerCase();
+    for (let i = 0; i < items.length; i++) {
+    const itemName = items[i].textContent.toLowerCase();
+    if (itemName.includes(searchTerm)) {
+        items[i].style.display = 'block';
+        } else {
+        items[i].style.display = 'none';
+        }
+  }
+});
+
+</script>
+      
+      
+        </section>
+     </main>
+       
+       
+    <footer>
+        <p>&copy; 2024 |LynxEdu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Downloads</title>
+    <link rel="stylesheet" href="moviesstyles.css">
+</head>
+<body>
+    <header>
+        <h1>Hollywood</h1>
+    </header> 
+
+    <section class="movies">
+        <div class="action">
+            <p class="genre">Action Movies</p>
+            <div class="list">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg"> 
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+            </div>
+            <div>
+                <a href="hollywoodaction.html"><p class="view">See more Action Movies</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies">
+        <div class="action">
+            <p class="genre">Animation</p>
+            <div class="list">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg"> 
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+            </div>
+            <div>
+                <a href="hollywoodaction.html"><p class="view">See more Animated Movies</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies">
+        <div class="action">
+            <p class="genre">Romance</p>
+            <div class="list">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg"> 
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+            </div>
+            <div>
+                <a href="hollywoodaction.html"><p class="view">View more Romance Movies</p></a>
+            </div>
+        </div>
+    </section>
+
+        <section class="movies">
+        <div class="action">
+            <p class="genre">Mystical Movies</p>
+            <div class="list">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg"> 
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+            </div>
+            <div>
+                <a href="hollywoodaction.html"><p class="view">View more Mystical Movies</p></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="movies">
+        <div class="action">
+            <p class="genre">Adventure</p>
+            <div class="list">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg"> 
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+            </div>
+            <div>
+                <a href="hollywoodaction.html"><p class="view">See more Adventure Movies</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies">
+        <div class="action">
+            <p class="genre">Horror Movies</p>
+            <div class="list">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg"> 
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+                <img class="images" src="someone_to_kiss.jpg">
+                <img class="images" src="furiosa.jpeg">
+                <img class="images" src="myspy2.jpeg">
+            </div>
+            <div>
+                <a href="hollywoodaction.html"><p class="view">See more Horrow movies</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="movie">
+        <input class="search" type="search" id="search-input" placeholder="  ...movie name...">
+        <div id="item-list">
+            <header2>
+                <h4>My Spy: The Eternal City 2024 (335MB)</h4>
+                <img src="myspy2.jpeg" width="256px" height="146px">
+                <p>JJ, a veteran CIA agent, reunites with his protégé Sophie, in order to prevent a catastrophic nuclear scheme aimed at the Vatican, which disrupts a high school choir trip to Italy.</p>
+                <div class="link-container">
+                    <input type="text" value="https://www.mediafire.com/file/pk0wmrgrqj1ccge/My+Spy+The+Eternal+City+(2024)+(Netnaija.ng).mkv/file?dkey=1v5rxcqp2hb&r=1426" id="my_spy_the_eternal_city_2024" readonly>
+                    <button onclick="copyLink('my_spy_the_eternal_city_2024')">Copy</button>
+                </div>
+            </header2>
+
+            <header2>
+                <h4>Furiosa: A Mad Max Saga 760000264526834508 MB)</h4>
+                <img src="furiosa_a_mad_max_saga.jpeg" width="256px" height="146px">
+                <p>Snatched from the Green Place of Many Mothers, young Furiosa falls into the hands of a great biker horde led by the warlord Dementus. Sweeping through the Wasteland, they come across the Citadel, presided over by the Immortan Joe. As the two tyrants fight for dominance, Furiosa soon finds herself in a nonstop battle to make her way home.</p>
+                <div class="link-container">
+                    <input type="text" value="https://jjje.com/link2" id="furiosa_a_mad_max_saga" readonly>
+                    <button onclick="copyLink('furiosa_a_mad_max_saga')">Copy</button>
+                </div>
+            </header2>
+
+            <header2>
+                <h4>Atlas</h4>
+                <img src="myspy2.jpeg" width="320px" height="183px">
+                <p>JJ, a veteran CIA agent, reunites with his protégé Sophie, in order to prevent a catastrophic nuclear scheme aimed at the Vatican, which disrupts a high school choir trip to Italy.</p>
+                <div class="link-container">
+                    <input type="text" value="https://www.mediafire.com/file/pk0wmrgrqj1ccge/My+Spy+The+Eternal+City+(2024)+(Netnaija.ng).mkv/file?dkey=1v5rxcqp2hb&r=1426" id="atlas" readonly>
+                    <button onclick="copyLink('atlas')">Copy</button>
+                </div>
+            </header2>
+
+            <header2>
+                <h4>Hit Man (1.2MB)</h4>
+                <img src="furiosa_a_mad_max_saga.jpeg" width="320px" height="183px">
+                <p>Snatched from the Green Place of Many Mothers, young Furiosa falls into the hands of a great biker horde led by the warlord Dementus. Sweeping through the Wasteland, they come across the Citadel, presided over by the Immortan Joe. As the two tyrants fight for dominance, Furiosa soon finds herself in a nonstop battle to make her way home.</p>
+                <div class="link-container">
+                    <input type="text" value="https://jjje.com/link2" id="link2" readonly>
+                    <button onclick="copyLink('link2')">Copy</button>
+                </div>
+            </header2>
+        </div>
+
+<script>
+    function copyLink(linkId) {
+        var copyText = document.getElementById(linkId);
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");
+        alert("Copied: ");
+    }
+
+    const searchInput = document.getElementById('search-input');
+    const itemList = document.getElementById('item-list');
+    const items = itemList.getElementsByTagName('header2');
+
+    searchInput.addEventListener('input', function() {
+    const searchTerm = searchInput.value.toLowerCase();
+    for (let i = 0; i < items.length; i++) {
+    const itemName = items[i].textContent.toLowerCase();
+    if (itemName.includes(searchTerm)) {
+        items[i].style.display = 'block';
+        } else {
+        items[i].style.display = 'none';
+        }
+  }
+});
+
+</script>
+      
+      
+        </section>
+     </main>
+       
+       
+    <footer>
+        <p>&copy; 2024 |LynxEdu. All rights reserved.</p>
+    </footer>
+</body>
+</html>

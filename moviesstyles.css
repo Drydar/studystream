@@ -1,6 +1,6 @@
 body {
-    background-color:rgb(100, 89, 89);
-    color:antiquewhite;
+    background-color: black;
+    color:rgb(189, 221, 217);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -16,23 +16,54 @@ body {
 }
 
 header{
-    text-align: center;
+    text-align: left;
     font-size: 120%;
 }
 
+.genre {
+    font-size: 120%;
+    font-family:sans-serif;
+    margin: 2%;
+}
+
+.action{
+    overflow: hidden;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.1%;
+    animation: scroll 30s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {transform: translateX(-100%)}
+}
+
+.view{
+    text-align: right;
+    text-decoration:none;
+    display: block;
+    color: antiquewhite;
+}
 .movies {
     border-radius: 20px;
     background-color: rgb(14, 20, 20);
     border-width: 100%;
     height: max-content;
-    margin: 15px;
-    padding: 15px;
+    margin: 5px;
+    padding: 10px;
 }
 
 .images{
     border-radius: 20px;
     width: 30%;
-    height:min-content;
+    aspect-ratio: 10px;
     padding: 10px;
     margin: 10px;
 }
+

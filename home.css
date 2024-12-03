@@ -80,9 +80,8 @@ footer {
     color:rgb(31, 46, 46);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-basis: 25%;
-    border-width: 100px;
     margin: 10px;
     line-height: 1;
-    padding: 4.5%;
+    padding: 10%;
     display:block;
 }
