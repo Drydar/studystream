@@ -1,0 +1,35 @@
+body {
+    background-color:rgb(212, 183, 52);
+}
+
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.logo /*for education*/ {
+    width: 30%;
+    padding: 1px;
+    margin: 1px;
+}
+
+.schools /*for education*/ {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.schools a /*for education*/ {
+    text-decoration: none;
+}
+
+.names /*for education*/ {
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 1px;  
+    line-height: 6;  
+}
