@@ -71,7 +71,7 @@ footer {
 }
 
 .services1{
-    font-size: 180%;
+    font-size: 200%;
     text-decoration: none;
     text-align: center;
     background-color: #ccc1c1;
@@ -82,6 +82,6 @@ footer {
     flex-basis: 25%;
     margin: 10px;
     line-height: 1;
-    padding: 25%;
+    padding: 20%;
     display:block;
 }
