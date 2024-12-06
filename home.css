@@ -5,7 +5,7 @@ header{
 
 .fire {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 body{
@@ -55,9 +55,19 @@ body{
 
 .info {
     border-radius: 10px;
+    border: none;
     background-color: rgba(5, 22, 77, 0.486);
     color: white;
     font-size: 60%;
+}
+
+.faq {
+    text-decoration: none;
+    border-radius: 0px;
+    background-color: #ccc1c1;
+    color: black;
+    margin: 1px;
+    padding: 1px;
 }
 
 footer {
