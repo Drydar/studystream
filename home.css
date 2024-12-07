@@ -96,3 +96,8 @@ footer {
     padding: 20%;
     display:block;
 }
+
+.coming-soon {
+    font-family: cursive;
+    font-size: 200%;
+}
