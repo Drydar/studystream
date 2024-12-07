@@ -52,8 +52,8 @@ body {
 }
 
 .list img {
-    width: 30%;
-    border-radius: 15px;
+    width: 40%;
+    border-radius: 10px;
     border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -89,8 +89,7 @@ body {
 
 .content {
     display: none;
-    margin-top: 20px;
-    padding: 20px;
+    padding: 2px;
     background-color: black;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
