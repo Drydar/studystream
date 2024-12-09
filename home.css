@@ -4,12 +4,15 @@ header{
 }
 
 .fire {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Exo 2", Verdana;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
     font-size: 100%;
 }
 
 body{
-    background-color: rgb(233, 219, 219);
+    background-color: black;
 }
 
 .home{
@@ -26,10 +29,56 @@ body{
     margin-bottom: 20px;
 }
 
+.items {
+    background-color: white;
+    color: #ffffff;
+    border-radius: 25px;
+    margin: 1px;
+    padding: 1px;
+    border-color: rgb(236, 226, 222);
+    text-align: center;
+    font-size: 60%;
+    margin-bottom: 20px;
+}
+
+nav .education {
+    background-image: url(education.jpeg);
+    background-size: cover;
+}
+
+nav .movies {
+    background-image: url(movies.png);
+    background-size: cover;
+}
+
+nav .novels {
+    background-image: url(novels.jpeg);
+    background-size: cover;
+}
+
+nav .exchange {
+    background-image: url(exchange.jpeg);
+    background-size: cover;
+}
+
+nav .market {
+    background-image: url(market_place.jpeg);
+    background-size: cover;
+}
+
+nav .investments {
+    background-image: url(investments.jpeg);
+    background-size: cover;
+}
+
+nav .blog {
+    background-image: url(blog.jpg);
+    background-size: cover;
+}
+
 .home header2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    
 }
 
 .nav-top{
@@ -73,31 +122,34 @@ body{
 footer {
     margin: 0px;
     padding: 2px;
-    color: black;
+    color: white;
     text-align: right;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50%;
     font-weight: bold;
 }
 
-.services1{
-    font-size: 200%;
+nav a {
+    font-size: 320%;
     text-decoration: none;
     text-align: center;
     background-color: #ccc1c1;
     border-radius: 15px;
     border-width: 100%;
-    color:rgb(31, 46, 46);
+    border: 3px solid rgb(36, 90, 92);
+    color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     flex-basis: 25%;
-    margin: 10px;
+    margin: 5px;
     line-height: 1;
-    padding: 20%;
+    padding: 18%;
     display:block;
 }
 
 .coming-soon {
     font-family: cursive;
     font-size: 200%;
+    color: black;
+    font-weight: bold;
 }
