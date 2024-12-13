@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 219, 219);
+    background-color: black;
 }
 
 header {
@@ -41,10 +41,10 @@ header {
     font-size: 80%;
     text-decoration: none;
     text-align: center;
-    background-color: black;
+    background-color: rgb(219, 210, 210);
     border-radius: 15px;
     border-width: 100%;
-    color:rgb(255, 255, 255);
+    color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     flex-basis: 25%;
     margin: 3px;
@@ -63,15 +63,13 @@ header {
 
 .search-icon /*for futoboks*/ {
     width: 10%;
-    background-color: black;
-    border-radius: 50%;    
 }
 
 .search /*for futobooks*/ {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
-    background-color: #928989;
+    background-color: #f1eeee;
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 110%;
@@ -109,6 +107,7 @@ header {
 }
 footer {
     background-color: transparent;
+    color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50%;
     text-align: right;
