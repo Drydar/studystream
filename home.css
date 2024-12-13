@@ -4,8 +4,8 @@ header{
 }
 
 .fire {
-    font-family:fantasy;
-    letter-spacing: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
     font-optical-sizing:auto;
     font-style: normal;
     font-size: 100%;
@@ -120,7 +120,7 @@ nav .blog {
 }
 
 footer {
-    margin: 0px;
+    margin: 1px;
     padding: 2px;
     color: white;
     text-align: right;
