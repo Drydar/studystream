@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    padding: 1px;
+    margin: 1px;
+}
+
+.course {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    background-color: rgb(5, 45, 58);
+    border-radius: 5px;
+    color: white;
+    background-size: cover;
+    margin: 5px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.details {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px;
+}
+
+options {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: left;
+    text-align: right;
+    padding: 1px;
+    margin: 2px;
+    margin-top: 5px;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+options a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin: 3px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+summary {
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50%;
+    text-align: right;
+    font-weight: bold;
+}
