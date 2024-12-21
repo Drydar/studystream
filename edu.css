@@ -62,17 +62,17 @@ header {
 }
 
 .search-icon /*for futoboks*/ {
-    width: 10%;
+    width: 22px;
 }
 
 .search /*for futobooks*/ {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 8px;
     border: none;
     background-color: #f1eeee;
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 110%;
+    font-size: 80%;
 }
 
 .faculty /*for faculties*/ {
