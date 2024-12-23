@@ -61,7 +61,7 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50%;
     font-weight: bold;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     color: white;
