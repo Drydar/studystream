@@ -26,3 +26,17 @@ footer {
     font-size: 50%;
     text-align: right;
 }
+
+.ask-question {
+    position: fixed;
+    bottom: 25px;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ask-question img {
+    width: 40px;
+}

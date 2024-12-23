@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: url(cover8.jpg);
+    background-size: cover;
 }
 
 header {

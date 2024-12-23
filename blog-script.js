@@ -1,45 +1,51 @@
-const video = document.getElementById("video");
-const playPauseBtn = document.getElementById("playPause");
-const seekBar = document.getElementById("seekBar");
-const timeDisplay = document.getElementById("time");
-const fullscreenBtn = document.getElementById("fullscreen");
-
-// Toggle Play/Pause
-playPauseBtn.addEventListener("click", () => {
-    if (video.paused) {
+document.querySelectorAll('.video-card').forEach((card) => {
+    const video = card.querySelector('.video');
+    const playPauseBtn = card.querySelector('.play-pause');
+    const muteUnmuteBtn = card.querySelector('.mute-unmute');
+    const volumeBar = card.querySelector('.volume-bar');
+    const progressBar = card.querySelector('.progress-bar');
+    const fullscreenBtn = card.querySelector('.fullscreen');
+  
+    // Play/Pause functionality
+    playPauseBtn.addEventListener('click', () => {
+      if (video.paused) {
         video.play();
-        playPauseBtn.textContent = "Pause";
-    } else {
+        playPauseBtn.textContent = 'Pause';
+      } else {
         video.pause();
-        playPauseBtn.textContent = "Play";
-    }
-});
-
-// Update Seek Bar and Time Display
-video.addEventListener("timeupdate", () => {
-    const currentTime = video.currentTime;
-    const duration = video.duration;
-    seekBar.value = (currentTime / duration) * 100;
-
-    // Format time as mm:ss
-    const formatTime = (time) => {
-        const minutes = Math.floor(time / 60);
-        const seconds = Math.floor(time % 60);
-        return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
-    };
-
-    timeDisplay.textContent = `${formatTime(currentTime)} / ${formatTime(duration)}`;
-});
-
-// Seek Video
-seekBar.addEventListener("input", () => {
-    const duration = video.duration;
-    video.currentTime = (seekBar.value / 100) * duration;
-});
-
-// Fullscreen Mode
-fullscreenBtn.addEventListener("click", () => {
-    if (video.requestFullscreen) {
+        playPauseBtn.textContent = 'Play';
+      }
+    });
+  
+    // Mute/Unmute functionality
+    muteUnmuteBtn.addEventListener('click', () => {
+      video.muted = !video.muted;
+      muteUnmuteBtn.textContent = video.muted ? 'Unmute' : 'Mute';
+    });
+  
+    // Volume control
+    volumeBar.addEventListener('input', (e) => {
+      video.volume = e.target.value;
+    });
+  
+    // Update progress bar as the video plays
+    video.addEventListener('timeupdate', () => {
+      progressBar.value = (video.currentTime / video.duration) * 100;
+    });
+  
+    // Seek functionality
+    progressBar.addEventListener('input', (e) => {
+      video.currentTime = (e.target.value / 100) * video.duration;
+    });
+  
+    // Fullscreen functionality
+    fullscreenBtn.addEventListener('click', () => {
+      if (video.requestFullscreen) {
         video.requestFullscreen();
-    }
-});
+      } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+      } else if (video.mozRequestFullScreen) {
+        video.mozRequestFullScreen();
+      }
+    });
+  });
