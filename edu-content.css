@@ -67,7 +67,7 @@ body {
     display: flex;
     gap: 1px;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: transparent;
     border-radius: 10px;
     border: none;
     text-align: center;
@@ -77,8 +77,8 @@ body {
 .navigation {
     width: 30%;
     padding: 10px;
-    background-color: antiquewhite;
-    color: black;
+    background-color: transparent;
+    color: white;
     cursor:pointer;
     transition: background-color 0.3s ease;
 }

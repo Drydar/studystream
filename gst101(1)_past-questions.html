@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBT Simulator with Score</title>
+  <link rel="stylesheet" href="cbtstyles.css">
+</head>
+<header>
+    <h2>PAST QUESTIONS</h2>
+</header>
+<body>
+  <div class="container">
+    <div id="score-container">
+      <p>Score: <span id="score">0</span> / <span id="total">0</span></p>
+      <p>Progress: <span id="progress">0</span>%</p>
+    </div>
+    <div id="question-container">
+      <p id="question-text">Question will appear here</p>
+      <div id="options-container"></div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; justify-content: space-between;">
+      <button id="prev-button" onclick="loadPreviousQuestion()">Previous Question</button>
+      <button id="next-button" onclick="loadNextQuestion()">Next Question</button>
+    </div>
+
+  </div>
+  <script src="cbtscript.js"></script>
+</body>
+<footer>
+    <p>Since 2024|StudyStream. All rights reserved.</p>
+</footer>
+</html>

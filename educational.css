@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-image: url(cover1.jpeg);
+    background-size: cover;
     padding: 1px;
     margin: 1px;
 }
@@ -8,7 +9,6 @@ body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
-    background-color: rgb(5, 45, 58);
     border-radius: 5px;
     color: white;
     background-size: cover;
@@ -40,14 +40,12 @@ options a {
 }
 
 .content {
-    margin: 3px;
-    padding: 1px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 0.418);
     border: none;
     border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 20px;
 }
 
 summary {
@@ -62,6 +60,9 @@ summary {
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50%;
-    text-align: right;
     font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
 }

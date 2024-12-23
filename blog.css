@@ -10,6 +10,10 @@ video {
     border-radius: 15px;
 }
 
+.video-card {
+    margin: 10px;
+}
+
 .content {
     margin: 2px;
     padding: 2px;
@@ -17,10 +21,6 @@ video {
 
 .write-up {
     font-size: 14px;
-}
-
-section {
-    margin-top: 20px;
 }
 
 /* General Styling */
@@ -76,6 +76,14 @@ video {
     background: #222;
     padding: 10px;
     color: #fff;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 4px;
+    margin: 1px;
+    background-color: rgba(89, 89, 134, 0.377);
 }
 
 .control-btn {

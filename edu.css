@@ -23,7 +23,7 @@ header {
 }
 
 .logo /*for education*/ {
-    width: 35%;
+    width: 160px;
     padding: 1px;
     margin: 1px;
 }
@@ -31,6 +31,7 @@ header {
 .schools /*for education*/ {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-top: 40px;
 }
 
 .schools a /*for education*/ {
