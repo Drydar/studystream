@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6d5a81, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  #uploadForm {
+    margin-top: 30px;
+  }
+  .container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    text-align: left;
+    font-weight: normal;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  input, textarea {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+  }
+
+  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2px;
+    padding: 2px;
+  }
