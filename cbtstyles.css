@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(27, 27, 27);
+  background-image: url(cbtbackground.jpeg);
+  background-size: cover;
   margin: 0;
   padding: 0;
   display: flex;
@@ -27,7 +28,8 @@ header {
 
 .container {
   margin: 20px;
-  background: white;
+  background: rgba(0, 0, 0, 0.521);
+  color: white;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
