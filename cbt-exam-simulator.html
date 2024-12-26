@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBT Exam Simulator</title>
+  <link rel="stylesheet" href="cbt-exam-simulator-styles.css">
+  <script src="cbt-exam-simulator-script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>CBT Exam Simulator</h1>
+  </header>
+  <div class="container">
+    <div class="timer">Time Remaining: <span id="timer">30:00</span></div>
+    <div class="progress">
+      <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+    <div class="question-container">
+      <p id="question-text">Question will appear here.</p>
+      <div id="options">
+        <!-- Options will be dynamically loaded -->
+      </div>
+    </div>
+    <div class="navigation">
+      <button id="prev-btn" disabled>Previous</button>
+      <button id="next-btn">Next</button>
+    </div>
+    <div id="score-container" class="hidden">
+      <h2>Your Score: <span id="score"></span></h2>
+    </div>
+    <div class="reloader">
+      <button class="reload" onclick="location.reload()">Retry</button>
+    </div>
+  </div>
+</body>
+
+<footer>
+  <p>Since 2024|StreamPlex. All rights resevered.</p>
+</footer>
+</html>

@@ -1,10 +1,16 @@
 body {
-    background-color: black;
+    background-image: url(cover8.jpg);
+    background-size: cover;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 80%;
     font-weight: bold;
     text-align: center;
+}
+
+.images {
+    margin: 10px;
+    line-height: 1px;
 }
 
 img {
@@ -17,7 +23,7 @@ img {
     padding: 1px;
     object-fit: cover;
     width: 100%;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     margin-top: 3px;
 }
 
@@ -38,5 +44,5 @@ footer {
 }
 
 .ask-question img {
-    width: 40px;
+    width: 60px;
 }

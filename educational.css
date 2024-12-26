@@ -8,12 +8,12 @@ body {
 .course {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200%;
+    font-size: 100%;
     border-radius: 5px;
     color: white;
     background-size: cover;
     margin: 5px;
-    padding: 40px;
+    padding: 4px;
     margin-bottom: 10px;
 }
 
@@ -41,11 +41,12 @@ options a {
 
 .content {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(255, 255, 255, 0.418);
-    border: none;
-    border-radius: 5px;
+    background-color: rgba(129, 201, 167, 0.63);
+    border:3px solid rgb(55, 112, 112);
+    border-radius: 10px;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
+    line-height: 2;
 }
 
 summary {

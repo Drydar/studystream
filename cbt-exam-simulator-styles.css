@@ -1,0 +1,130 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(cover1.jpeg);
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #3bb8999c;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 60px;
+  border-radius: 25px;
+  border: 3px solid rgba(34, 65, 85, 0.822);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.timer {
+  text-align: right;
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#timer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-style: oblique;
+  border-radius: 15px;
+
+}
+
+#progress-bar {
+  width: 100%;
+  background-color: blue;
+  margin: 10px;
+}
+.progress {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+#options {
+  text-align: left;
+}
+#options button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background: #282a2c;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation button:hover {
+  background-color: #101111;
+  color: white;
+}
+
+button {
+  background-color: #007bff70;
+  border-radius: 7px;
+  border: none;
+  padding: 6px;
+  margin: 6px;
+}
+
+.reload {
+  width: 100%;
+  background-color: #101111;
+  color: white;
+}
+
+.reloader button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.hidden {
+  display:block;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
